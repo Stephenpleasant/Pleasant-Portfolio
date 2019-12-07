@@ -953,7 +953,7 @@ footer a i{
         width: 100%;
     }
     header{
-        width: 50%;
+        width: 70%;
     }
     #menu-icon{
         margin-left: 5px;
@@ -994,7 +994,12 @@ footer a i{
     margin-right: 30%; 
   }
   
-
+  .services-list{
+    display: block;
+}
+.services-list div{
+    margin-bottom: 50px;
+}
 .navbar{
     display: flex;
     position: absolute;
