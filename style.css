@@ -953,7 +953,7 @@ footer a i{
         width: 80%;
     }
     header{
-        width: 100%;
+        width: 50%;
     }
     #menu-icon{
         margin-left: 5px;
@@ -1022,6 +1022,10 @@ footer a i{
 }
 .home{
     padding: 0;
+    position: relative;
+    width: 80%;
+        
+    
 }
 .home-content{
     max-width: 550px;   
