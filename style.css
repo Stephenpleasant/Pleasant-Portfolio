@@ -653,6 +653,7 @@ align-items: flex-start;
 
 
 .contact{
+    display: block;
     margin-top: 70px;
     width: 100%;
     justify-content: center;
@@ -663,10 +664,7 @@ align-items: flex-start;
  font-size: 1.3rem;
  color: #ededed;
 }
-.contact .main-text{
-    margin-bottom: 50px;
-    margin-left: 17%;
-}
+
 .contact .main-text h2{
  font-size: 3rem;
  width: 700;
