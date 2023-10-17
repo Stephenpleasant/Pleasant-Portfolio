@@ -658,10 +658,7 @@ align-items: flex-start;
     justify-content: center;
     text-align: center;
 }
-.contact .main-text{
-    margin-bottom: 50px;
-    margin-left: 27%;
-}
+
 .contact .main-text span{
  font-size: 1.3rem;
  color: #ededed;
