@@ -930,7 +930,7 @@ footer a i{
         margin-left: 0;
     }
 }
-@media(max-width:600px){
+@media(max-width:786px){
     #menu-icon{
         display: block;
         transition: all .4s ease;
