@@ -33,7 +33,7 @@ let changeText = ()=>{
        currentWordIndex = currentWordIndex ===maxWordIndex ? 0 : currentWordIndex + 1;
 }
 changeText();
-setInterval(changeText, 3000)
+setInterval(changeText, 6000)
 
 
 const circles = document.querySelectorAll('.circle');
