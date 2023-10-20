@@ -8,6 +8,9 @@ body{
     color: #ededed;
     background: #081b29;
 }
+.main{
+    width: 100%;
+}
 
 ::-webkit-scrollbar{
     height: 0;
@@ -946,11 +949,11 @@ footer a i{
     }
 }
 @media(max-width:600px){
-    body{
-        width: 600px;
+    .main{
+        width: 80%;
     }
     header{
-        width: 30%;
+        width: 100%;
     }
     #menu-icon{
         margin-left: 5px;
@@ -961,9 +964,41 @@ footer a i{
     #menu-icon.fa-x{
         transform: rotate(-180deg);
     }
-    .about .about-img{
-        display: none;
+    .about{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
     }
+    .about-img img{
+            padding-bottom: 20%;
+            max-width: 30px;
+            width: 0%;  
+            display: none;
+    }
+
+    .about-text h2{
+        font-size: 40px;
+        
+  }
+  .about-text h4{
+      font-size: 15px;
+      margin: 5px, 0 10px;
+  }
+  .about-text p{
+      font-size: 15px;
+  }
+ 
+  .container{
+      padding: 90px;
+      width: 100px;
+  }
+  .port-box{
+    display: flex;
+    margin-right: 30%;
+    
+  }
+  
 
 .navbar{
     display: flex;
