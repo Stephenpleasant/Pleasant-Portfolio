@@ -946,7 +946,7 @@ footer a i{
 }
 @media(max-width:550px){
     header{
-        width: 70%;
+        width: 50%;
         background: #051129;
         display: flex;
         justify-content: space-between;
