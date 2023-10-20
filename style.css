@@ -982,4 +982,14 @@ footer a i{
 .home-content{
     max-width: 550px;   
 }
+.home-content h3{
+    font-size: 20px;
+    animation-delay: .3s;
+}
+.home-content h1{
+    font-size: 45px;
+}
+.home-content p{
+    width: 350px;
+}
 }
