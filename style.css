@@ -43,7 +43,7 @@ header.sticky{
     font-size: 1.8rem;
     z-index: 10001;
     cursor: pointer;
-    margin-right: 25px;
+    margin-right: 10px;
     background: #0ef;
     border-radius: 3px;
     color: #051129;
@@ -944,7 +944,7 @@ footer a i{
         margin-left: 0;
     }
 }
-@media(max-width:600px){
+@media(max-width:550px){
     #menu-icon{
         display: block;
         transition: all .4s ease;
