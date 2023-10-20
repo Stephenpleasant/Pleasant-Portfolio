@@ -33,6 +33,7 @@ header{
     z-index: 100;
 
 }
+
 header.sticky{
     background: #000;
     border-bottom: 1px solid #0ef;
@@ -42,7 +43,7 @@ header.sticky{
     display: none;
     margin-left: 25px;
     font-size: 1.8rem;
-    z-index: 100;
+    z-index: 10001;
     cursor: pointer;
     background: #0ef;
     border-radius: 3px;
@@ -944,28 +945,24 @@ footer a i{
         margin-left: 0;
     }
 }
-@media(max-width:550px){
+@media(max-width:600px){
     body{
-        width: 550px;
+        width: 600px;
     }
     header{
         width: 30%;
-        background: #051129;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 100;
-    
     }
     #menu-icon{
         margin-left: 5px;
-        z-index: 100;
         display: block;
         transition: all .4s ease;
     }
     
     #menu-icon.fa-x{
         transform: rotate(-180deg);
+    }
+    .about .about-img{
+        display: none;
     }
 
 .navbar{
@@ -989,7 +986,7 @@ footer a i{
     top: 100%;
 }
 .home{
-    padding: 40px 5% 0;
+    padding: 0;
 }
 .home-content{
     max-width: 550px;   
