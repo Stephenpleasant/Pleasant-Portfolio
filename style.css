@@ -40,6 +40,7 @@ header.sticky{
 }
 #menu-icon{
     display: none;
+    margin-left: 25px;
     font-size: 1.8rem;
     z-index: 10001;
     cursor: pointer;
@@ -945,6 +946,8 @@ footer a i{
 }
 @media(max-width:550px){
     #menu-icon{
+        margin-left: 5px;
+        z-index: 100;
         display: block;
         transition: all .4s ease;
     }
@@ -972,5 +975,11 @@ footer a i{
 }
 .navbar.open{
     top: 100%;
+}
+.home{
+    padding: 40px 5% 0;
+}
+.home-content{
+    max-width: 550px;   
 }
 }
