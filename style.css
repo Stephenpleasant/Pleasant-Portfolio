@@ -945,6 +945,15 @@ footer a i{
     }
 }
 @media(max-width:550px){
+    header{
+        width: 70%;
+        background: #051129;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    
+    }
     #menu-icon{
         margin-left: 5px;
         z-index: 100;
@@ -994,14 +1003,21 @@ footer a i{
 }
 .skill-main{
     margin-left: 0%;
-    width: 70%;
+    width: 60%;
    
 }
 .radial-bars{
-    width: 80%;
+    width: 70%;
 }
 .heading1{
     display: flex;
     float: left;
+}
+#service{
+    font-size: 13px;
+    
+}
+.portfolio{
+    margin-top: 370px;
 }
 }
