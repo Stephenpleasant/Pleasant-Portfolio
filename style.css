@@ -42,7 +42,7 @@ header.sticky{
     display: none;
     margin-left: 25px;
     font-size: 1.8rem;
-    z-index: 10001;
+    z-index: 100;
     cursor: pointer;
     background: #0ef;
     border-radius: 3px;
@@ -990,6 +990,18 @@ footer a i{
     font-size: 45px;
 }
 .home-content p{
-    width: 350px;
+    width: 300px;
+}
+.skill-main{
+    margin-left: 0%;
+    width: 70%;
+   
+}
+.radial-bars{
+    width: 80%;
+}
+.heading1{
+    display: flex;
+    float: left;
 }
 }
