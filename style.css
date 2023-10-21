@@ -950,7 +950,7 @@ footer a i{
 }
 @media(max-width:600px){
     .main{
-        width: 80%;
+        width: 100%;
     }
     header{
         width: 50%;
@@ -986,17 +986,12 @@ footer a i{
       margin: 5px, 0 10px;
   }
   .about-text p{
-      font-size: 15px;
+      font-size: 20px;
   }
  
-  .container{
-      padding: 90px;
-      width: 100px;
-  }
   .port-box{
     display: flex;
-    margin-right: 30%;
-    
+    margin-right: 30%; 
   }
   
 
@@ -1019,16 +1014,6 @@ footer a i{
 }
 .navbar.open{
     top: 100%;
-}
-.home{
-    padding: 0;
-    position: relative;
-    width: 80%;
-        
-    
-}
-.home-content{
-    max-width: 550px;   
 }
 .home-content h3{
     font-size: 20px;
