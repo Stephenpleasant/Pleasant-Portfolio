@@ -130,3 +130,38 @@ window.scroll =()=>{
     more.classList.open("more")
 }
 
+
+// C3278291B9796546D3CB65B6873773F427E3  .....its for pleasantstephen44@gmail.com
+
+function emailSend() {
+    var UserName = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var address = document.getElementById('address').value;
+    var phone = document.getElementById('phone').value;
+    var message = document.getElementById('message').value;
+
+ var messageBody = "Name: " + UserName +
+ "<br/> Email: " + email +
+ "<br/> Address: " + address +
+ "<br/> Phone: " + phone +
+ "<br/> Message: " + message;
+
+ console.log(messageBody)
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "stephenpleasant1@gmail.com",
+        Password : "53E6694393172AFE60E9EDB0B8CC39F5A9C4",
+        To : 'pleasantstephen44@gmail.com',
+        From : "stephenpleasant1@gmail.com",
+        Subject : "This is the subject",
+        Body : messageBody
+    }).then(
+      message => {
+        if (message =='OK') {
+            swal("Successful!", "You clicked the button!", "success");
+        }else{
+            swal("Error", "You clicked the button!", "error");
+        }
+      }
+    );
+}
