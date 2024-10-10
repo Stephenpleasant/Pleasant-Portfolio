@@ -419,27 +419,7 @@ header.sticky{
     margin-top: 20px;
     display: inline-block;
 }
-.read{
-    display: inline-block;
-    padding: 12px 20px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-    0 0 25px #0ef;
-}
-.read:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan
-}
+
 .services-list div:hover{
      transform: translateY(-10px);
 }
@@ -831,7 +811,73 @@ footer a i{
 }
 
 
-@media(max-width:35em){
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home {
+        grid-template-columns: 1fr;
+        padding: 100px 5% 0;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content h1 {
+        font-size: 50px;
+    }
+
+    .home-content p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .home .about-img {
+        display: none;
+    }
+
+    #grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 25%;
+        grid-gap: 2rem;
+        place-content: center;
+        align-items: center;
+    }
+    
+    #grid .one h1 {
+        font-size: 1.3rem;
+    }
+
+    .sub-title {
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+
+    .services-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        padding: 60px 5%;
+    }
+
+    .portifolo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact form {
+        max-width: 80%;
+    }
+
+    .navbar {
+        --gap: 1.5rem;
+    }
+
+    .navbar li a {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 767px) {
     .main{
         width: 100%;
     }
@@ -933,25 +979,22 @@ footer a i{
 }
   #services{
     display: flex;
-    float: left;
+    justify-content: center;
     font-size: 13px;
   }
   .services-list{
     display: block;
 }
+
 .services-list div{
     margin-bottom: 50px;
     padding: 50px 30px;
-    width: 70%;
+    
 }
 .portfolio{
     margin-top: 10px;
-    justify-content: left;
 }
 
-.portfolio .main-text{
- margin-left: 0;
-}
 .portfolio span{
  font-size: .8rem;
 }
@@ -961,15 +1004,10 @@ footer a i{
 .portfolio .btn{
     font-size: .8rem;
 }
-.filter-buttons .btn{
-    margin-left: 0;
-}
+
 .filter-buttons{
     margin: 0 2rem;
     text-align: left;
-}
-.contact{
-    width: 70%;
 }
 .contact .main-text span{
  font-size: 1rem;
@@ -1008,3 +1046,12 @@ footer a i{
         margin-left: 0;
     }
 }
+
+
+
+
+
+
+
+
+/* help */
